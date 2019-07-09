@@ -19,6 +19,9 @@ sudo apt-get remove gcc g++
 # install gcc 4.9/g++ 4.9
 sudo apt-get install gcc-4.9 g++-4.9
 
+# might have to be gcc 4.8
+sudo apt-get install gcc-4.8 g++-4.8
+
 # link to gcc/g++
 sudo ln -s /usr/bin/g++-4.9 /usr/bin/g++
 sudo ln -s /usr/bin/gcc-4.9 /usr/bin/gcc
